@@ -2,10 +2,10 @@
 
 # 🍈 Papaya's Corner 🍈
 
-### a cozy little corner of the internet for tiny games
+### welcome to my corner of the internet for tiny games!
 
 Browse, discover and play little cozy games right in your browser.<br>
-Dress-up, decorating, gentle idle games and soft little puzzles. No downloads, no pressure.
+Dress-up, decorating, idle games and  puzzles. No downloads!
 
 **[🌸 Visit it here: papayas-corner.vercel.app 🌸](https://papayas-corner.vercel.app)**
 
