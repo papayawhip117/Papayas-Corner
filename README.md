@@ -88,8 +88,8 @@ Pick a mood, find something cute, and play for a while. ♥
 You'll need [Node.js](https://nodejs.org) installed.
 
 ```bash
-git clone https://github.com/papayawhip117/papayas-corner.git
-cd papayas-corner
+git clone https://github.com/papayawhip117/Papayas-Corner.git
+cd Papayas-Corner
 npm install
 npm run dev
 ```
