@@ -19,21 +19,21 @@ export default function About() {
       <div className="letter">
         <PixelArt name="buddy" scale={5} className="letter__buddy bob" />
         <p>
-          Hi, I’m Papaya! This is my little corner of the internet, where I keep all of
-          my tiny games.
+          Hi, I’m Papaya!! {'<3'} This is my little corner of the internet I’ve created where
+          I keep all of my games.
         </p>
         <p>
-          I grew up losing whole afternoons on websites full of little browser games:
-          dress-up, decorating, cooking, games where you just looked after something sweet.
-          I wanted to make a place that feels like that again. It’s cozy, a bit nostalgic,
-          and there’s always something new to try.
+          I grew up on browser games: dress-up, decorating, cooking, you name it. I wanted
+          to make a place that feels like that in my own way. I’m hoping that as I
+          continually create that there will eventually always be something new to try for
+          everyone here.
         </p>
         <p>
-          Every game here plays right in your browser. Nothing to download, and none of
-          them will rush you.
+          Every game here plays right in your browser. Papaya’s Corner acts as the “launch”
+          site for every game!
         </p>
         <p className="letter__sign">
-          Thanks for visiting. Make yourself at home!
+          Thanks for visiting my work in progress. Get cozy and game on!
           <span>♥ Papaya</span>
         </p>
       </div>
