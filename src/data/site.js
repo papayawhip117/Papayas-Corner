@@ -9,6 +9,6 @@ export const site = {
     // { label: 'TikTok', url: 'https://…' },
   ],
   // Business email for the suggestion box. Leave empty to hide the box.
-  email: '',
+  email: 'papayawhipdev@gmail.com',
   startedYear: 2026,
 };

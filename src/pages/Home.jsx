@@ -26,9 +26,9 @@ function Welcome() {
           Welcome to your little corner of the internet
         </h1>
         <p className="welcome__lede">
-          Papaya’s Corner is a tiny shelf of my cozy games. Dress-up, decorating,
-          gentle idle games and soft little puzzles. No downloads, no pressure, just pick
-          something that looks nice and play for a while.
+          Papaya’s Corner is a personal library of ‘cozy’ games I’ve created! Dress-up,
+          decorating, idle games and simple puzzles. No downloads or ads- just pick
+          something that you like and hang out for a while! Thanks for playing!
         </p>
         <div className="btn-row">
           <Link to="/games" className="btn btn--primary">Browse the shelf</Link>
