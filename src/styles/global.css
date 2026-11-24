@@ -167,7 +167,7 @@ button { font: inherit; color: inherit; }
   padding: 28px 0 14px;
 }
 .logo { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
-.logo__text { font-family: var(--font-display); font-size: 2rem; line-height: 1; }
+.logo__text { font-family: var(--font-display); font-size: 2rem; line-height: 1; white-space: nowrap; }
 .logo__icon { transition: transform .3s var(--ease-pop); }
 .logo:hover .logo__icon { transform: rotate(-12deg) scale(1.1); }
 .nav { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -702,14 +702,17 @@ a.ticket:hover .ticket__art .cover { transform: scale(1.05); }
   .footer__inner { grid-template-columns: 1fr 1fr; }
   .footer__brand { grid-column: 1 / -1; }
 }
-@media (max-width: 760px) {
-  body { font-size: 16px; }
+/* the full nav needs about 1000px; below that it folds into the Menu button */
+@media (max-width: 1000px) {
   .menu-btn { display: block; }
   .header__bar { flex-wrap: wrap; padding-top: 24px; }
-  .logo__text { font-size: 1.6rem; }
   .nav { display: none; width: 100%; flex-direction: column; gap: 4px; padding: 8px 0; }
   .nav.is-open { display: flex; }
-  .nav__link { font-size: 1.3rem; }
+  .nav__link { font-size: 1.3rem; width: fit-content; }
+}
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  .logo__text { font-size: 1.6rem; }
   .welcome__card { padding: 24px 20px; }
   .scene__shelf { gap: 12px; }
   .scene__shelf > .pixel-art:first-child, .coin-spin { display: none; }
