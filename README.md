@@ -30,6 +30,7 @@ Pick a mood, find something cute, and play for a while. ♥
 | Game | What it is | Play |
 |---|---|---|
 | 🐾 **My Cozy Market** | A lantern-lit forest market at dusk. Make a pal, shop, dress up and decorate your home in the woods. | [Play](https://my-cozy-market.vercel.app) · [Code](https://github.com/papayawhip117/Paw-Pal) |
+| 🐈 **Sleepy Kitty** | A cozy idle desktop companion. Pick your kitty's coat, the season and weather, and play lofi or rain sounds while you relax, work or study. | [Play](https://sleepy-kitty-game.vercel.app) · [Code](https://github.com/papayawhip117/sleepy-kitty) |
 | ✨ *more coming soon!* | | |
 
 ---
