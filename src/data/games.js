@@ -26,17 +26,17 @@ export const games = [
       { src: '/games/sleepy-kitty/sunset.png', alt: 'Kitty napping on the window sill at sunset' },
       { src: '/games/sleepy-kitty/snow.png', alt: 'Kitty napping on the window sill on a snowy winter day' },
     ],
-    play: { type: 'external', url: 'https://sleepy-kitty-game.vercel.app' },
+    play: { type: 'external', url: 'https://sleepy-kitty-idlegame.vercel.app' },
     controls: [
       { where: 'Window', keys: 'Click the window to pick the season, weather and time of day' },
       { where: 'Laptop', keys: 'Click the laptop on the desk to choose your kitty’s coat' },
       { where: 'Lamp', keys: 'Click the lamp to turn it on or off' },
       { where: 'Kitty', keys: 'Tap her to say hi · press and drag to carry her to the bed or the floor' },
-      { where: 'Corner buttons', keys: 'Settings · Sounds (lofi, rain, nature) · H hides everything for cozy mode · Esc closes a panel' },
+      { where: 'Corner buttons', keys: 'Settings · Sounds (lofi, rain, nature) · Room colors (bedding, rug, curtains) · H hides everything for cozy mode · Esc closes a panel' },
     ],
     notes: 'Nothing to earn and nothing to keep up with: just a sleepy kitty keeping you company. Your choices are saved in this browser.',
     changelog: [
-      { version: '1.0.0', date: '2026-11-27', text: 'First release! Seasons, weather, time of day, kitty coats, and lofi, rain and nature sounds.' },
+      { version: '1.0.0', date: '2026-11-27', text: 'First release! Seasons, weather, time of day, kitty coats, room colors, and lofi, rain and nature sounds.' },
     ],
     accent: 'coral', // palette token used for this game's color touches
   },
