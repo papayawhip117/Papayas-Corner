@@ -8,6 +8,39 @@
 
 export const games = [
   {
+    slug: 'sleepy-kitty',
+    title: 'Sleepy Kitty',
+    tagline: 'A cozy idle desktop companion.',
+    description:
+      'Cozy idle desktop game. Customize your kitty color, the weather, season and even listen to some lofi or rain sounds while you relax, work, or study! I hope you enjoy this idle desktop companion!',
+    categories: ['cozy', 'idle'],
+    tags: ['pixel art', 'kitty', 'lofi', 'rain sounds', 'seasons', 'desktop companion'],
+    status: 'new', // 'new' | 'featured' | 'coming-soon' | 'released'
+    featured: true,
+    released: '2026-11-27',
+    version: '1.0.0',
+    thumbnail: '/games/sleepy-kitty/sunset.png',
+    cover: '/games/sleepy-kitty/sunset.png',
+    screenshots: [
+      { src: '/games/sleepy-kitty/title.png', alt: 'The Sleepy Kitty start screen' },
+      { src: '/games/sleepy-kitty/sunset.png', alt: 'Kitty napping on the window sill at sunset' },
+      { src: '/games/sleepy-kitty/snow.png', alt: 'Kitty napping on the window sill on a snowy winter day' },
+    ],
+    play: { type: 'external', url: 'https://sleepy-kitty-game.vercel.app' },
+    controls: [
+      { where: 'Window', keys: 'Click the window to pick the season, weather and time of day' },
+      { where: 'Laptop', keys: 'Click the laptop on the desk to choose your kitty’s coat' },
+      { where: 'Lamp', keys: 'Click the lamp to turn it on or off' },
+      { where: 'Kitty', keys: 'Tap her to say hi · press and drag to carry her to the bed or the floor' },
+      { where: 'Corner buttons', keys: 'Settings · Sounds (lofi, rain, nature) · H hides everything for cozy mode · Esc closes a panel' },
+    ],
+    notes: 'Nothing to earn and nothing to keep up with: just a sleepy kitty keeping you company. Your choices are saved in this browser.',
+    changelog: [
+      { version: '1.0.0', date: '2026-11-27', text: 'First release! Seasons, weather, time of day, kitty coats, and lofi, rain and nature sounds.' },
+    ],
+    accent: 'coral', // palette token used for this game's color touches
+  },
+  {
     slug: 'my-cozy-market',
     title: 'My Cozy Market',
     tagline: 'A lantern-lit forest market at dusk.',
