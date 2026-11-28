@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🍈 Papaya's Corner 🍈
+# 💛 Papaya's Corner 🧡
 
-### welcome to my corner of the internet for tiny games!
+### welcome to my corner of the internet for my games!
 
 Browse, discover and play little cozy games right in your browser.<br>
 Dress-up, decorating, idle games and  puzzles. No downloads!
